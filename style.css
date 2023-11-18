@@ -1,0 +1,150 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://wallpapercave.com/wp/wp2638549.jpg'); 
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{ /* enlaces*/
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{ /* cabecera*/
+    width: 100%;
+    height: 60px;
+}
+
+header nav{ /* Barra de navegacion*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex; /* Hacer elementos flexibles*/
+    list-style: none; /* Quitar decoracion de lista*/
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav .nav-right-section a{ /* Espacio hacia la derecha y color negro */
+    margin-right: 10px;
+    color: black;
+}
+
+#profile{
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+main {
+    margin-top: 100px; /*Expaciado exterior de arriba */
+    text-align: center;
+}
+
+main .main-logo{
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px; /*Expaciado exterior de    abajo */
+}
+
+main .main-logo img{
+    width: 400px;  /*Tamaño de la imagen */
+}
+
+main .main-input{  /*cajita de buscardor input */
+    width: 600px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 600px;
+    border-radius: 100px;
+    border: 1px solid hsla(0, 16%, 76%, 0.815);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+main .main-input input{
+    width: 500px;
+    height: 38px;
+    border: none;
+    outline: none;
+
+}
+
+main .buscar{
+    text-align: center;
+    border-color: #000001;
+}
+
+
+main .main-buttons{
+    width: 1365px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display:inline-block
+    
+}
+
+
+main .main-buttons button{
+    height: 30px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 0 10px; /* espacio interior*/
+    margin-right: 50px;
+}
+
+/* animacion con hover, transicion*/
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px #000001;
+
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 14px;
+    background-color: rgba(235, 228, 228, 0.986);
+    border-top: 1px solid #cecece;
+}
+
+footer ul{
+    margin: 15px;
+    list-style: none; /*quitar puntos*/
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 10px; /*espacido entre los enlaces*/
+    color:#525252;
+}
